@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541E58DB28AA9DF100ECC545 /* GlaipDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E58DA28AA9DF100ECC545 /* GlaipDemoApp.swift */; };
+		541E58DD28AA9DF100ECC545 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E58DC28AA9DF100ECC545 /* LoginView.swift */; };
+		541E58DF28AA9DF200ECC545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541E58DE28AA9DF200ECC545 /* Assets.xcassets */; };
+		541E58E228AA9DF200ECC545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541E58E128AA9DF200ECC545 /* Preview Assets.xcassets */; };
+		54493BDC28AB7CCD00B4DA0B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54493BDB28AB7CCD00B4DA0B /* ProfileView.swift */; };
+		54493BE028AB7DA300B4DA0B /* WalletButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54493BDF28AB7DA300B4DA0B /* WalletButtonView.swift */; };
+		54973B2B28AC10C600E51B48 /* Glaip in Frameworks */ = {isa = PBXBuildFile; productRef = 54973B2A28AC10C600E51B48 /* Glaip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		541E58D728AA9DF100ECC545 /* GlaipDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlaipDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		541E58DA28AA9DF100ECC545 /* GlaipDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlaipDemoApp.swift; sourceTree = "<group>"; };
+		541E58DC28AA9DF100ECC545 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		541E58DE28AA9DF200ECC545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		541E58E128AA9DF200ECC545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54493BDB28AB7CCD00B4DA0B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		54493BDF28AB7DA300B4DA0B /* WalletButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541E58D428AA9DF100ECC545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54973B2B28AC10C600E51B48 /* Glaip in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541E58CE28AA9DF100ECC545 = {
+			isa = PBXGroup;
+			children = (
+				541E58D928AA9DF100ECC545 /* GlaipDemo */,
+				541E58D828AA9DF100ECC545 /* Products */,
+				544AC2DE28ABD2590089A4F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		541E58D828AA9DF100ECC545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541E58D728AA9DF100ECC545 /* GlaipDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541E58D928AA9DF100ECC545 /* GlaipDemo */ = {
+			isa = PBXGroup;
+			children = (
+				54493BDE28AB7D3F00B4DA0B /* Profile */,
+				54493BDD28AB7D3900B4DA0B /* Login */,
+				541E58DA28AA9DF100ECC545 /* GlaipDemoApp.swift */,
+				541E58DE28AA9DF200ECC545 /* Assets.xcassets */,
+				541E58E028AA9DF200ECC545 /* Preview Content */,
+			);
+			path = GlaipDemo;
+			sourceTree = "<group>";
+		};
+		541E58E028AA9DF200ECC545 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				541E58E128AA9DF200ECC545 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54493BDD28AB7D3900B4DA0B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				541E58DC28AA9DF100ECC545 /* LoginView.swift */,
+				54493BDF28AB7DA300B4DA0B /* WalletButtonView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		54493BDE28AB7D3F00B4DA0B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				54493BDB28AB7CCD00B4DA0B /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		544AC2DE28ABD2590089A4F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541E58D628AA9DF100ECC545 /* GlaipDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541E58E528AA9DF200ECC545 /* Build configuration list for PBXNativeTarget "GlaipDemo" */;
+			buildPhases = (
+				541E58D328AA9DF100ECC545 /* Sources */,
+				541E58D428AA9DF100ECC545 /* Frameworks */,
+				541E58D528AA9DF100ECC545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlaipDemo;
+			packageProductDependencies = (
+				54973B2A28AC10C600E51B48 /* Glaip */,
+			);
+			productName = GlaipDemo;
+			productReference = 541E58D728AA9DF100ECC545 /* GlaipDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541E58CF28AA9DF100ECC545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					541E58D628AA9DF100ECC545 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 541E58D228AA9DF100ECC545 /* Build configuration list for PBXProject "GlaipDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541E58CE28AA9DF100ECC545;
+			packageReferences = (
+				54973B2928AC10C600E51B48 /* XCRemoteSwiftPackageReference "Glaip" */,
+			);
+			productRefGroup = 541E58D828AA9DF100ECC545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541E58D628AA9DF100ECC545 /* GlaipDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541E58D528AA9DF100ECC545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541E58E228AA9DF200ECC545 /* Preview Assets.xcassets in Resources */,
+				541E58DF28AA9DF200ECC545 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541E58D328AA9DF100ECC545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541E58DD28AA9DF100ECC545 /* LoginView.swift in Sources */,
+				54493BE028AB7DA300B4DA0B /* WalletButtonView.swift in Sources */,
+				54493BDC28AB7CCD00B4DA0B /* ProfileView.swift in Sources */,
+				541E58DB28AA9DF100ECC545 /* GlaipDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		541E58E328AA9DF200ECC545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		541E58E428AA9DF200ECC545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541E58E628AA9DF200ECC545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlaipDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = S6CFQ992W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = band.wrist.GlaipDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541E58E728AA9DF200ECC545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlaipDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = S6CFQ992W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = band.wrist.GlaipDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541E58D228AA9DF100ECC545 /* Build configuration list for PBXProject "GlaipDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541E58E328AA9DF200ECC545 /* Debug */,
+				541E58E428AA9DF200ECC545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541E58E528AA9DF200ECC545 /* Build configuration list for PBXNativeTarget "GlaipDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541E58E628AA9DF200ECC545 /* Debug */,
+				541E58E728AA9DF200ECC545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54973B2928AC10C600E51B48 /* XCRemoteSwiftPackageReference "Glaip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maurovz/Glaip.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54973B2A28AC10C600E51B48 /* Glaip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54973B2928AC10C600E51B48 /* XCRemoteSwiftPackageReference "Glaip" */;
+			productName = Glaip;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 541E58CF28AA9DF100ECC545 /* Project object */;
+}
