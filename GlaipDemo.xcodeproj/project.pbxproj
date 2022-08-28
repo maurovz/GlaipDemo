@@ -385,7 +385,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/maurovz/Glaip.git";
 			requirement = {
-				branch = main;
+				branch = "feature/rainbow-wallet";
 				kind = branch;
 			};
 		};
