@@ -15,7 +15,7 @@ struct LoginView: View {
     self.glaip = Glaip(
       title: "Glaip Demo App",
       description: "Demo app to demonstrate Web3 login",
-      supportedWallets: [.WalletConnect])
+      supportedWallets: [.Rainbow])
   }
 
 
@@ -57,6 +57,20 @@ struct LoginView: View {
           iconImage: Image("MetaMaskIcon")
         )
         .frame(width: 250)
+        .padding(.leading)
+        .padding(.trailing)
+
+        WalletButtonView(
+          title: "Rainbow Wallet",
+          action: {
+            glaip.loginUser(type: .Rainbow) { result in
+              print(result)
+            }
+          },
+          iconImage: Image("RainbowWalletIcon")
+        )
+        .frame(width: 250)
+        .padding(.top)
         .padding(.leading)
         .padding(.trailing)
       }
