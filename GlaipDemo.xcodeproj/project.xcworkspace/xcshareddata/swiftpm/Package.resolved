@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/maurovz/Glaip.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "8b1708c571b72d518e76c3c7d40bb08b56f4ea35"
+        "branch" : "feature/rainbow-wallet",
+        "revision" : "b659c10ab547c5ba42a341f9e02b9ea7231d2665"
       }
     },
     {

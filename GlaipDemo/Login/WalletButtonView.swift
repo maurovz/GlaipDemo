@@ -24,11 +24,12 @@ struct WalletButtonView: View {
         .padding(.leading)
         .padding(.trailing)
 
-
       Button(String(describing: title)) {
         action()
       }
       .padding(.trailing)
+
+      Spacer()
     }
     .font(.system(size: 16, weight: .semibold))
     .frame(maxWidth: .infinity)
