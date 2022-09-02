@@ -51,7 +51,12 @@ struct LoginView: View {
           title: "MetaMask",
           action: {
             glaip.loginUser(type: .WalletConnect) { result in
-              print(result)
+              switch result {
+              case .success(let user):
+                print(user.wallet.address)
+              case .failure(let error):
+                print(error)
+              }
             }
           },
           iconImage: Image("MetaMaskIcon")
