@@ -13,7 +13,7 @@
 		541E58E228AA9DF200ECC545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541E58E128AA9DF200ECC545 /* Preview Assets.xcassets */; };
 		54493BDC28AB7CCD00B4DA0B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54493BDB28AB7CCD00B4DA0B /* ProfileView.swift */; };
 		54493BE028AB7DA300B4DA0B /* WalletButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54493BDF28AB7DA300B4DA0B /* WalletButtonView.swift */; };
-		54973B2B28AC10C600E51B48 /* Glaip in Frameworks */ = {isa = PBXBuildFile; productRef = 54973B2A28AC10C600E51B48 /* Glaip */; };
+		54C38E5528CB3EC000FBCE1A /* Glaip in Frameworks */ = {isa = PBXBuildFile; productRef = 54C38E5428CB3EC000FBCE1A /* Glaip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54973B2B28AC10C600E51B48 /* Glaip in Frameworks */,
+				54C38E5528CB3EC000FBCE1A /* Glaip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +116,7 @@
 			);
 			name = GlaipDemo;
 			packageProductDependencies = (
-				54973B2A28AC10C600E51B48 /* Glaip */,
+				54C38E5428CB3EC000FBCE1A /* Glaip */,
 			);
 			productName = GlaipDemo;
 			productReference = 541E58D728AA9DF100ECC545 /* GlaipDemo.app */;
@@ -147,7 +147,7 @@
 			);
 			mainGroup = 541E58CE28AA9DF100ECC545;
 			packageReferences = (
-				54973B2928AC10C600E51B48 /* XCRemoteSwiftPackageReference "Glaip" */,
+				54C38E5328CB3EC000FBCE1A /* XCRemoteSwiftPackageReference "Glaip" */,
 			);
 			productRefGroup = 541E58D828AA9DF100ECC545 /* Products */;
 			projectDirPath = "";
@@ -381,20 +381,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		54973B2928AC10C600E51B48 /* XCRemoteSwiftPackageReference "Glaip" */ = {
+		54C38E5328CB3EC000FBCE1A /* XCRemoteSwiftPackageReference "Glaip" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/maurovz/Glaip.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		54973B2A28AC10C600E51B48 /* Glaip */ = {
+		54C38E5428CB3EC000FBCE1A /* Glaip */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 54973B2928AC10C600E51B48 /* XCRemoteSwiftPackageReference "Glaip" */;
+			package = 54C38E5328CB3EC000FBCE1A /* XCRemoteSwiftPackageReference "Glaip" */;
 			productName = Glaip;
 		};
 /* End XCSwiftPackageProductDependency section */

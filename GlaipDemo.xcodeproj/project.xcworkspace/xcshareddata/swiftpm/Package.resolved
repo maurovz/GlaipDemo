@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/maurovz/Glaip.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "8bd6c01a019b87b70376085498031b3be587b9d1"
+        "revision" : "b7f289499e27f3045ef741ab1ace760692ca96ea",
+        "version" : "0.1.1"
       }
     },
     {
