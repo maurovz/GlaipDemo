@@ -50,7 +50,7 @@ struct LoginView: View {
         WalletButtonView(
           title: "MetaMask",
           action: {
-            glaip.loginUser(type: .WalletConnect) { result in
+            glaip.loginUser(type: .MetaMask) { result in
               switch result {
               case .success(let user):
                 print(user.wallet.address)
