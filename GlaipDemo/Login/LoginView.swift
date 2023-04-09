@@ -10,7 +10,6 @@ import Glaip
 
 struct LoginView: View {
   @ObservedObject private var glaip: Glaip
-
   init() {
     self.glaip = Glaip(
       title: "Glaip Demo App",
@@ -54,6 +53,7 @@ struct LoginView: View {
               switch result {
               case .success(let user):
                 print(user.wallet.address)
+                  let success = saveStringToKeychain(value: user.wallet.address, key: "walletAddress")
               case .failure(let error):
                 print(error)
               }
@@ -83,6 +83,7 @@ struct LoginView: View {
         ProfileView(logoutAction: {
           glaip.userState = .unregistered
           glaip.logout()
+          
         })
       }
     }

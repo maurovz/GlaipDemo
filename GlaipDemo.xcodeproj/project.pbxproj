@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C6A71429E3212900CB54AE /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6A71329E3212900CB54AE /* KeyChain.swift */; };
 		541E58DB28AA9DF100ECC545 /* GlaipDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E58DA28AA9DF100ECC545 /* GlaipDemoApp.swift */; };
 		541E58DD28AA9DF100ECC545 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E58DC28AA9DF100ECC545 /* LoginView.swift */; };
 		541E58DF28AA9DF200ECC545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541E58DE28AA9DF200ECC545 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C6A71329E3212900CB54AE /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 		541E58D728AA9DF100ECC545 /* GlaipDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlaipDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		541E58DA28AA9DF100ECC545 /* GlaipDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlaipDemoApp.swift; sourceTree = "<group>"; };
 		541E58DC28AA9DF100ECC545 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C6A71229E3211D00CB54AE /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				04C6A71329E3212900CB54AE /* KeyChain.swift */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
 		541E58CE28AA9DF100ECC545 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		541E58D928AA9DF100ECC545 /* GlaipDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04C6A71229E3211D00CB54AE /* KeyChain */,
 				54493BDE28AB7D3F00B4DA0B /* Profile */,
 				54493BDD28AB7D3900B4DA0B /* Login */,
 				541E58DA28AA9DF100ECC545 /* GlaipDemoApp.swift */,
@@ -177,6 +188,7 @@
 			files = (
 				541E58DD28AA9DF100ECC545 /* LoginView.swift in Sources */,
 				54493BE028AB7DA300B4DA0B /* WalletButtonView.swift in Sources */,
+				04C6A71429E3212900CB54AE /* KeyChain.swift in Sources */,
 				54493BDC28AB7CCD00B4DA0B /* ProfileView.swift in Sources */,
 				541E58DB28AA9DF100ECC545 /* GlaipDemoApp.swift in Sources */,
 			);

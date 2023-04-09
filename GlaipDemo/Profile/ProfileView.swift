@@ -33,6 +33,8 @@ struct ProfileView: View {
           .foregroundColor(Color("AccentColor"))
       }
       .onTapGesture {
+          
+        deleteStringFromKeychain(key: "walletAddress")
         self.logoutAction()
       }
 
